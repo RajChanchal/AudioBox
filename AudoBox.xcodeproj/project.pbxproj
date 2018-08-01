@@ -13,6 +13,8 @@
 		277AF6F5210FA8E000E256C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277AF6F4210FA8E000E256C6 /* Assets.xcassets */; };
 		277AF6F8210FA8E000E256C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277AF6F6210FA8E000E256C6 /* LaunchScreen.storyboard */; };
 		277AF703210FA8E000E256C6 /* AudoBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AF702210FA8E000E256C6 /* AudoBoxTests.swift */; };
+		277AF710210FAEDD00E256C6 /* AudioBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AF70F210FAEDD00E256C6 /* AudioBox.swift */; };
+		277AF712210FB3CA00E256C6 /* AudioBoxTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AF711210FB3CA00E256C6 /* AudioBoxTrack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		277AF6FE210FA8E000E256C6 /* AudoBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudoBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		277AF702210FA8E000E256C6 /* AudoBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudoBoxTests.swift; sourceTree = "<group>"; };
 		277AF704210FA8E000E256C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277AF70F210FAEDD00E256C6 /* AudioBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBox.swift; sourceTree = "<group>"; };
+		277AF711210FB3CA00E256C6 /* AudioBoxTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBoxTrack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		277AF6EC210FA8DD00E256C6 /* AudoBox */ = {
 			isa = PBXGroup;
 			children = (
+				277AF70E210FAEC500E256C6 /* AudioBox */,
 				277AF6ED210FA8DD00E256C6 /* AppDelegate.swift */,
 				277AF6EF210FA8DD00E256C6 /* ViewController.swift */,
 				277AF6F1210FA8DD00E256C6 /* Main.storyboard */,
@@ -94,6 +99,15 @@
 				277AF704210FA8E000E256C6 /* Info.plist */,
 			);
 			path = AudoBoxTests;
+			sourceTree = "<group>";
+		};
+		277AF70E210FAEC500E256C6 /* AudioBox */ = {
+			isa = PBXGroup;
+			children = (
+				277AF70F210FAEDD00E256C6 /* AudioBox.swift */,
+				277AF711210FB3CA00E256C6 /* AudioBoxTrack.swift */,
+			);
+			path = AudioBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +213,8 @@
 			files = (
 				277AF6F0210FA8DD00E256C6 /* ViewController.swift in Sources */,
 				277AF6EE210FA8DD00E256C6 /* AppDelegate.swift in Sources */,
+				277AF712210FB3CA00E256C6 /* AudioBoxTrack.swift in Sources */,
+				277AF710210FAEDD00E256C6 /* AudioBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
